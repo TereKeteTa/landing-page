@@ -1,0 +1,21 @@
+body {
+    display: flex;
+    flex-direction: column;;
+    margin: 0;
+    padding: 0;
+}
+
+.hero,
+.info,
+.misc,
+.contact {
+    flex: 1;
+}
+
+.header,
+.hero,
+.footer {
+    background-color: #1f2937;
+    color: white;
+}
+
